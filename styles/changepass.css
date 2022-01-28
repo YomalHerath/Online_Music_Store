@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+fieldset#change_pass
+{
+	width:25%;
+	margin:auto;
+	background:#FFFFFF;
+	background:rgba(255,255,255,0.5);
+}
+
+button#sub {
+    padding: 8px 9px;
+    border-radius: 32px;
+    border-color: red;
+    border-style: solid;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+	color:white;
+	
+}
+
+button#sub:hover {
+    background-color: red;
+    border-color: red;
+    transition-duration: 0.3s;
+}
+input[type="text"]
+{
+	 background-color: #FFFFFF;
+	 color:#000000;
+	 box-shadow : 0 0 10px blue;
+}
+input[type="password"]
+{
+	 background-color: #FFFFFF;
+	 color:#000000;
+	 box-shadow : 0 0 10px blue;
+}
+label{
+	font-style:italic;
+}

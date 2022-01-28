@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+a#genre {
+    padding: 48px;
+    font-size: 24px;
+}
+
+/* Genre background images */
+
+#rock {
+    margin: 4px;
+    background-image: url(../images/genres/rock.jpg);
+    background-size: cover;
+}
+
+#metal {
+    margin: 4px;
+    background-image: url(../images/genres/metal.jpg);
+    background-size: cover;
+}
+
+#jazz {
+    margin: 4px;
+    background-image: url(../images/genres/jazz.jpg);
+    background-size: cover;
+}
+
+#pop {
+    margin: 4px;
+    background-image: url(../images/genres/pop.jpg);
+    background-size: cover;
+}
+
+#hiphop {
+    margin: 4px;
+    background-image: url(../images/genres/hiphop.jpg);
+    background-size: cover;
+}
+
+#edm {
+    margin: 4px;
+    background-image: url(../images/genres/edm.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+fieldset#payment
+{
+	width:51%;
+	margin:auto;
+	background:#FFFFFF;
+	background:rgba(255,255,255,0.5);
+}
+table, th, td 
+{
+    border: 1px solid black;
+}
+

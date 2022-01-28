@@ -1,0 +1,55 @@
+/*product page*/
+
+/* fieldset */
+#album{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 1150px;
+}
+
+/* tracklist fieldset */
+#tracks{
+    background:rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.5);
+    margin-left: 45%;
+}
+
+ol{
+    color:black;
+    font-size: 18px;
+    font-weight:bold;
+    font-style: italic;
+}
+
+/* more album fieldset */
+#moreAlbums{
+    background:rgb(255, 255, 255);
+    background: rgba(255, 255, 255,0.5);
+    margin-left: 45%;
+}
+
+/* all album picture */
+img{
+    border-radius: 5%;
+}
+
+/* album picture*/
+.image{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-right: 50px;
+  }
+  
+/* album description */
+.textfield {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    background:rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 35px;
+    padding-right: 20px;
+    margin:30px;
+}

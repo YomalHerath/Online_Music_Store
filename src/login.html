@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login - Online Music Store</title>
+        <link rel="stylesheet" type="text/css" href="../styles/general.css"/>
+        <link rel="stylesheet" type="text/css" href="../styles/login.css"/>
+    </head>
+    <body>
+        <header>
+            <img src="../images/logo.png" alt="Logo" id="logo" align="left"/>
+            <h1 id="siteheader">Online Music Store</h1>
+            <h3 id="sitedesc">Download and stream digital music</h3>
+            <div align="right" style="margin-bottom: 5px;">
+                    <button class="button" onClick="location.href='login																																																																										.html'" id="active">Login</button>
+                    <button class="button" onClick="location.href='register.html'">Sign Up</button>
+            </div>
+        </header>
+        <ul id="navbar">
+            <li class="navbutton"><a href="../index.php" class="navbutton">Home</a></li>
+            <li class="navbutton"><a href="genres.html" class="navbutton">Genres</a></li>
+            <li class="navbutton"><a href="artists.html" class="navbutton">Artists</a></li>
+            <li class="navbutton"><a href="albums.html" class="navbutton">Albums</a></li>
+            <li class="navbutton"><a href="contactus.html" class="navbutton">Contact Us</a></li>
+            <li class="navbutton"><a href="aboutus.html" class="navbutton">About Us</a></li>
+            <a href="">
+                <img src="../images/cart.png" alt="Cart" height="36" width="36" id="cart" align="right"/>
+            </a>
+            <div align="right"><button class="button" id="search" onClick="location.href='search.html'">Search</button></div>
+        </ul>
+        
+        <fieldset id="login">
+        <legend>Login</legend>
+	    <!-- link to php -->
+        <form method="post" action="../php/login.php" >
+        	<div align="center">
+        	<label align="center"><b>Username :</b></label>
+    		<input type="text" name="un"  id="usr" placeholder="Enter Username" required>
+             
+            <br><br>
+
+    		<label align="center"><b>Password :&nbsp;</b></label>
+    		<input type="password" name="pass" id="l2" placeholder="Enter Password"  required>
+              
+            <br><br>
+
+    		<div id="button" align="center"><input type="submit" name="btnsubmit" id="sub" value="Login"></div>
+            
+            
+    		<label>
+      		<div id="check" align="center"><input type="checkbox" > Remember me </label>
+            </div>
+		</form> 
+        </fieldset>
+        
+        <hr/>
+        <footer>
+            <p align="center">
+                <div style="float:right;">
+                    <a href="mailto:onlinemusicstore@gmail.com" class="footerLinks">onlinemusicstore@gmail.com</a><br/>
+                    <p class="footerText">
+                        SLIIT Kurunegala branch,<br/>
+                        Mihindu Mawatha, Kurunegala
+                    </p>
+                </div>
+                <a href="contactus.html" class="footerLinks">Contact Us</a><br/>
+                <a href="aboutus.html" class="footerLinks">About Us</a>
+                <p class="footerText">2019</p>
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+/*register*/
+
+/* submit button */
+#submit{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 3px 20px;
+    border-radius: 12px;
+    border: 2px solid red;
+}
+ /* register fieldet */
+.register{
+    background: rgb(255, 255, 255); 
+    background: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    margin: auto;
+}
+
+form#register{
+    font-size: 18px;
+}
+
+input[type = text]{
+    font-size: 18;
+    width:23%;
+    border-radius: 4px;
+}
+input[type = password]{
+    font-size: 18;
+    width:30%;
+    border-radius: 4px;
+}
+input[type = email]{
+    font-size: 18;
+    width:60%;
+    border-radius: 4px;
+}
+input[type = username]{
+    font-size: 18;
+    width:60%;
+    border-radius: 4px;
+}
+input[type = date]{
+    font-size: 18;
+    width:25%; 
+    border-radius: 4px;
+}
+
+label{
+    color:rgb(0, 0, 0);
+    font-style: italic;
+    font-weight:bold;
+}
+
+#name{
+    box-shadow: 0 0 10px blue;
+}
+#pwd{
+    box-shadow: 0 0 10px blue;
+}
+#cpwd{
+    box-shadow: 0 0 10px blue;
+}
+.bday{
+    box-shadow: 0 0 10px blue;
+}

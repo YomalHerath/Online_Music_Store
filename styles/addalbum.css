@@ -1,0 +1,34 @@
+/* Add album */
+#addAlbum{
+    background-color: rgba(255, 255, 255,0.6);
+    width: 300px;
+    margin: auto;
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type=text]{
+    font-size: 14;
+    width:400px;
+    height:30px;  
+    border-radius: 5px;
+}
+
+textarea{
+    border-radius: 5px;
+    width :400px;
+    height: 50px;
+}
+
+table{
+    text-align:left;
+}
+#name{
+    box-shadow: 0 0 10px black;
+}
+#price{
+    box-shadow: 0 0 10px black;
+}

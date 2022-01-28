@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+div.albumDetails {
+    width: 70%;
+    margin: auto;
+}
+
+table.albumDetailsHeader {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr.albumDetailsHeader {
+    background-size: 65%;
+}
+
+td#albumDetailsHeader {
+    padding: 0;
+    margin: 0;
+}
+
+td#albumDetailsAlbumArt {
+    width: 35%;
+    padding: 0;
+    margin: 0;
+}
+
+button.albumDetailsArtistName {
+    padding: 0;
+    background: transparent;
+    border: none;
+    text-shadow: 0px 0px 8px black;
+    cursor: pointer;
+}
+
+h2.albumDetailsArtistName {
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    color: #bbb;
+    font-size: 24px;
+}
+
+h2.albumDetailsArtistName:hover {
+    color: white;
+    transition-duration: 0.3s;
+}
+
+h1.albumDetailsAlbumTitle {
+    margin-top: 0px;
+    margin-left: 28px;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h2.albumDetailsYear {
+    margin-top: 5px;
+    margin-left: 30px;
+    color: white;
+    font-weight: normal;
+}
+
+p.albumDetailsDescription {
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #ddd;
+    text-align: justify;
+    /* float: left; */
+    font-size: 18px;
+    vertical-align: bottom;
+}
+
+div.albumDetailsHeader {
+    /* float: left; */
+    text-align: center;
+}
+
+img.albumDetailsAlbumArt {
+    float: right;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid black;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+}
+
+table.tracklist {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+tr.tracklistHeader {
+    background-color: black;
+    color: white;
+}
+
+th {
+    padding: 8px;   
+}
+
+tr.trackRow {
+    background-color: #f1f3f4;
+    border-bottom: 1px solid #ccc;
+}
+
+/* tr.trackRow:hover {
+    background-color: #ddd;
+} */
+
+/* tr.trackRow:nth-child(odd) {
+    background-color: #ccc;
+} */
+
+td#trackNo {
+    width: 10%;
+    text-align: center;
+}
+
+td#trackTitle {
+    width: 45%;
+}
+
+td#trackLength {
+    width: 10%;
+    text-align: center;
+}
+
+audio {
+    height: 30px;
+    float: right;
+}
+
+table.addtocart {
+    border-collapse: collapse;
+    /* border: 2px solid black; */
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: black;
+    width: 35%;
+    float: right;
+}
+
+td.price {
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+}
+
+td.addtocart {
+    padding: 0;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+}
+
+a.addtocart {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+/* td.addtocart:hover {
+    background-color: red;
+    transition-duration: 0.3s;
+} */
+
+a.addtocart:hover {
+    color: red;
+    transition-duration: 0.3s;
+}

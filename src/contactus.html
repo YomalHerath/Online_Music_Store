@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us | Online Music Store</title>
+        <link rel="stylesheet" type="text/css" href="../styles/general.css"/>
+        <!--CSS file for the search button-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../styles/contactus.css">
+
+    </head>
+    <body onload='document.form1.text1.focus()'>
+        <header>
+            <img src="../images/logo.png" alt="Logo" id="logo" align="left"/>
+            <h1 id="siteheader">Online Music Store</h1>
+            <h3 id="sitedesc">Download and stream digital music</h3>
+            <div align="right" style="margin-bottom: 5px;">
+                    <button class="button" onClick="location.href='login.html'">Login</button>
+                    <button class="button" onClick="location.href='register.html'">Sign Up</button>
+            </div>
+        </header>
+        <ul id="navbar">
+            <li class="navbutton"><a href="../index.php" class="navbutton">Home</a></li>
+            <li class="navbutton"><a href="genres.html" class="navbutton">Genres</a></li>
+            <li class="navbutton"><a href="artists.php" class="navbutton">Artists</a></li>
+            <li class="navbutton"><a href="albums.php" class="navbutton">Albums</a></li>
+            <li class="navbutton"><a href="contactus.html" class="navbutton" id="active">Contact Us</a></li>
+            <li class="navbutton"><a href="aboutus.html" class="navbutton">About Us</a></li>
+            <a href="">
+                <img src="../images/cart.png" alt="Cart" height="36" width="36" id="cart" align="right"/>
+            </a>
+            <div align="right" class="searchcontainer"><form method="GET" action="search.php">
+                <input type="text" name="query" placeholder="Search tracks, albums and artists..." id="searchbar"/>
+                <button type="submit" class="searchbutton"><i class="fa fa-search"/></i></button>
+            </form></div>
+        </ul>
+	<div class="map">
+   <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.8233389196644!2d80.36069061459627!3d7.484750394600957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae33a1f76f3dfaf%3A0x288f333fefb6c535!2sSLIIT%20(Sri%20Lanka%20Institute%20of%20Information%20Technology)%20Kurunegala%20branch!5e0!3m2!1sen!2slk!4v1567580152679!5m2!1sen!2slk" width="600" height="450" style="border:3px solid black;" allowfullscreen=""></iframe>
+
+    </div>
+    <fieldset class= "c_set">
+    <legend>Contact Us</legend>
+
+ <div class="c_form">
+
+    <form id="c_form" method="post" action="" >
+        <input name="name" type="text" class="form_c" placeholder="Your Name" required>
+        <br>
+        <br>
+        <textarea name="message" class="form_c" placeholder="Message" rows="4" required></textarea>
+        <br>
+        </form>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm();" method="post" id="c_form">
+    <input type="text" name="email" class="form_c" placeholder="Email"><br/>
+    <input type="submit" value="Submit" class="submit">
+  </form>
+	</div>
+    
+    <div class="address">
+		<h4>Sri Lanka Institute of Information Technology,<br>
+		Mihindu Mawatha,<br>
+		Kurunegala<br>
+		Tel : <br>
+		E-mail : onlinemusicstore@gmail.com</h4>
+    </div>
+    
+ 
+     </fieldset>
+        <hr/>
+        <footer>
+            <p align="center">
+                <div style="float:right;">
+                    <a href="mailto:onlinemusicstore@gmail.com" class="footerLinks">onlinemusicstore@gmail.com</a><br/>
+                    <p class="footerText">
+                        SLIIT Kurunegala branch,<br/>
+                        Mihindu Mawatha, Kurunegala
+                    </p>
+                </div>
+                <a href="contactus.html" class="footerLinks">Contact Us</a><br/>
+                <a href="aboutus.html" class="footerLinks">About Us</a>
+                <p class="footerText">2019</p>
+            </p>
+        </footer>
+    </body>
+
+
+    <script>
+        function validateForm() {
+          var x = document.forms["myForm"]["email"].value;
+          var atpos = x.indexOf("@");
+          var dotpos = x.lastIndexOf(".");
+          if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+            alert("Not a valid e-mail address");
+            return false;
+          }
+        }
+        </script>
+</html>

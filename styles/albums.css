@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* table {
+    border-collapse: collapse;
+    margin-top: 0px;
+} */
+
+/* tr {
+    margin: 0;
+}
+
+td {
+    padding: 0;
+    margin: 0;
+} */
+
+p.albumsBy {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 8px black;
+    padding: 10px;
+    /* border-radius: 20px; */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 12px;
+    margin-top: 15px
+}
+
+td.albumEntry {
+    width: 25%;
+}
+
+img#albumGridView {
+    display: block;
+    width: 85%;
+    margin: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+img#albumGridView:hover {
+    border-color: black;
+}
+
+p{
+    margin: 0px;
+    color: white;
+    text-shadow: 0px 0px 8px black;
+}
+
+p.albumTitle{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p.artistName {
+    margin-bottom: 10px;
+}
+
+button.albumGridView {
+    margin: 0px;
+    padding: 0px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+button.albumGridView:hover {
+    border-color: red;
+    transition-duration: 0.3s;
+}

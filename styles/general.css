@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+body {
+    background-image: url("../images/background.jpg");
+    background-color: #FFF;
+    background-size: cover;
+}
+
+#logo {
+    display: block;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#siteheader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: red;
+    text-shadow: 0px 0px 8px black;
+;
+}
+
+#sitedesc {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 0px 0px 8px black;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 3px 20px;
+    border-radius: 12px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    transition-duration: 0.3s;
+}
+
+.button#active {
+    background-color: red;
+    border-color: red;
+}
+
+hr {
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+    margin-bottom: 12px;
+}
+
+#navbar a.navbutton {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 15px 16px;
+}
+
+li.navbutton {
+    float: left;
+}
+
+li.navbutton a.navbutton:hover {
+    background: red;
+    transition-duration: 0.3s;
+}
+
+#active {
+    background: red;
+}
+
+#search {
+    margin-top: 9px;
+    margin-right: 5px;
+    border-radius: 8px;
+    border-color: black;
+}
+
+#cart {
+    margin: 5px;
+}
+
+fieldset, legend {
+    display: block;
+    border: 5px solid black;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 10px;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+}
+
+fieldset.subfieldset {
+    padding: 0;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+a.subfieldset {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-shadow: 0 0 10px black;
+    padding-bottom: 14px;
+}
+
+fieldset.subfieldset:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border: 3px solid red;
+    transition-duration: 0.3s;
+}
+
+.albumArt {
+    box-shadow: 0px 0px 10px black;
+    border: 2px solid black;
+}
+
+.albumArt:hover {
+    border: 2px solid red;
+    transition-duration: 0.3s;
+}
+
+footer {
+    padding: 8px 64px 8px 64px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+}
+
+.footerText {
+    color: white;
+}
+
+.footerLinks {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.footerLinks:hover {
+    color: red;
+}
+
+/*
+a.subfieldset:hover {
+    text-shadow: 0 0 10px black;
+}
+*/
+
+/* Search Bar */
+
+.searchcontainer {
+    margin-top: 8px;
+}
+
+#searchbar {
+    padding: 7px;
+    border: none;
+    font-size: 15px;
+    color: black;
+    border: none;
+    background-color: white;
+    color: white;
+    width: 20%;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+#searchbar:focus {
+    background-color: white;
+    color: black;
+}
+
+button.searchbutton {
+    float: right;
+    border: none;
+    padding: 0px;
+    background: transparent;
+}
+
+/* button.searchbutton:hover {
+    background-color: red;
+    transition-duration: 0.3s;
+} */
+
+.fa-search {
+    padding: 9px;
+    padding-right: 14px;
+    padding-left: 14px;
+    background-color: white;
+    cursor: pointer;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.fa-search:hover {
+    background-color: red;
+    color: white;
+    transition-duration: 0.3s;
+}

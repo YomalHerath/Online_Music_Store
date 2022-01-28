@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+td.artistEntry {
+    width: 25%;
+}
+
+button.artistGridView {
+    padding: 0px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+button.artistGridView:hover {
+    border-color: red;
+    transition-duration: 0.3s;
+}
+
+img#artistGridView {
+    margin: 0px;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+    /* margin-bottom: 5px;
+    border: 3px solid black;
+    cursor: pointer; */
+}
+
+p.artistGridView{
+    margin-bottom: 2px;
+    margin-top: 4px;
+    color: white;
+    text-shadow: 0px 0px 8px black;
+    font-size: 18px;
+    font-weight: bold;
+}

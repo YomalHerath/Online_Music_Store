@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up - Online Music Store</title>
+        <link rel="stylesheet" type="text/css" href="../styles/register.css">
+   
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+   
+    </head>
+
+    <body >
+        <header>
+                <img src="../images/logo.png" alt="Logo" id="logo" align="left"/>
+                <h1 id="siteheader">Online Music Store</h1>
+                <h3 id="sitedesc">Download and stream digital music</h3>
+                <div align="right" style="margin-bottom: 5px;">
+                        <button class="button" onClick="location.href='login.html'">Login</button>
+                        <button class="button" id="active" onClick="location.href='register.html'">Sign Up</button>
+                </div>
+            </header>
+            <ul id="navbar">
+                <li class="navbutton"><a href="../index.php" class="navbutton">Home</a></li>
+                <li class="navbutton"><a href="genres.html" class="navbutton">Genres</a></li>
+                <li class="navbutton"><a href="artists.html" class="navbutton">Artists</a></li>
+                <li class="navbutton"><a href="albums.html" class="navbutton">Albums</a></li>
+                <li class="navbutton"><a href="contactus.html" class="navbutton">Contact Us</a></li>
+                <li class="navbutton"><a href="aboutus.html" class="navbutton">About Us</a></li>
+                <a href="">
+                    <img src="../images/cart.png" alt="Cart" height="36" width="36" id="cart" align="right"/>
+                </a>
+                <div align="right"><button class="button" id="search" onClick="location.href='search.html'">Search</button></div>
+            </ul>
+
+        <fieldset class= "register">
+            <legend>Registration</legend>
+            
+            <!-- link the Register php to submit button -->
+            <form method="post" id="register" action="../php/register.php">
+
+            <label>First Name :</label>
+            <input type= "text" name="fname" id="name" placeholder="Enter your first name" required>
+
+            <label>&emsp;Last Name  :</label> 
+            <input type= "text" name="lname" id="name" placeholder="Enter your last name" required><br><br>
+
+            <label>User Name &nbsp;:</label>
+            <input type= "username" name="username" id="name" placeholder="Enter your user name" required><br><br>
+            
+            <label>Email &emsp;&emsp;&nbsp;:</label>
+            <input type= "email" name="email" id="name" placeholder="Enter your email" required><br><br>
+            
+            <label>Password &emsp;&emsp;&emsp;&emsp;:</label>
+            <input type= "password" name="pass" id="pwd" placeholder="Enter your password" maxlength="10" required><br><br>
+            <label>Confirm Password&ensp;:</label>
+            <input type= "password" name="pass" id="cpwd" placeholder="Enter your password" maxlength="10" required><br><br>
+            
+            <label>Date of Birth &emsp;&emsp;&ensp;:</label>
+            <input type="date" name="bday" id="name" required><br><br>
+            
+            <input type="checkbox" required> 
+            <label>I agree to the Terms and Conditions</label> <br><br>
+            
+            <div align="right"><input type="submit" value="register" id="submit" name="submit">
+
+            </form>
+        </fieldset>
+        <hr/>
+        <footer>
+            <p align="center">
+                <div style="float:right;">
+                    <a href="mailto:onlinemusicstore@gmail.com" class="footerLinks">onlinemusicstore@gmail.com</a><br/>
+                    <p class="footerText">
+                        SLIIT Kurunegala branch,<br/>
+                        Mihindu Mawatha, Kurunegala
+                    </p>
+                </div>
+                <a href="../Assignment/src/contactus.html" class="footerLinks">Contact Us</a><br/>
+                <a href="../Assignment/src/aboutus.html" class="footerLinks">About Us</a>
+                <p class="footerText">2019</p>
+            </p>
+        </footer>
+    </body>
+</html>

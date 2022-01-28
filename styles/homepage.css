@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+#popularArtist {
+    background-image: url("../images/artists/muse/header02.jpg");
+    background-size: cover;
+}
+
+#artistLogo {
+    margin-bottom: 20px;
+    margin-right: 56px;
+}
+
+#albumArts {
+    margin-top: 0px;
+}
+
+img.upcomingRelease {
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 1px solid black;
+}
+
+a#trendingArtist {
+    padding: 60.5px 0 60.5px 0;
+    font-size: 28px;
+}
+
+#ta1 {
+    background-image: url(../images/artists/leprous/header.jpg);
+    background-size: cover;
+}
+
+#ta2 {
+    background-image: url(../images/artists/muse/header.jpg);
+    background-size: cover;
+}
+
+#ta3 {
+    background-image: url(../images/artists/nirvana/header.jpg);
+    background-size: cover;
+}
+
+#ta4 {
+    background-image: url(../images/artists/beatles/header.jpg);
+    background-size: cover;
+}
